@@ -171,6 +171,7 @@ const ProductPage = (props) => {
       <ValidatorForm onSubmit={()=>{
                     addNewProduct()
                     props.productList()
+                    props.productList()
                     setaddProduct(0)
                     setaddalert(true)
                     setname("")
@@ -325,7 +326,7 @@ const ProductPage = (props) => {
           }
           sx={{ mb: 2 }}
         >
-          Product "{addNewProduct}" Added successfully
+          Product Added successfully
         </Alert>
       </Collapse>
         </Box>
